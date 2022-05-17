@@ -1,27 +1,8 @@
-/*
- * @(#)ApplicationMain.java
- *
- * Copyright (c) BANCO DE CHILE (Chile). All rights reserved.
- *
- * All rights to this product are owned by BANCO DE CHILE and may only
- * be used under the terms of its associated license document. You may NOT
- * copy, modify, sublicense, or distribute this source file or portions of
- * it unless previously authorized in writing by BANCO DE CHILE.
- * In any event, this notice and the above copyright must always be included
- * verbatim with this file.
- */
-
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
-/**
- * ApplicationMain.
- *
- * @author Camilo Valderrama.
- * @version 1.0.0, 17-05-2022
- */
 public class ApplicationMain {
 
     public static void main(String[] args) {
@@ -65,8 +46,6 @@ public class ApplicationMain {
                     }
                 });
         }
-
-
         if(inputText.length() == countFound.get()) {
             System.out.print(inputText + ":" + "True");
         }else {
